@@ -31,8 +31,8 @@ function Navbar() {
             <div className="navbar-container">
                 {/* replaces <a> tag  */}
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                  TRVL 
-                  <i className="fab fa-typo3" />   
+                  A.R.T. 
+                  <image src="/src/images/paint.png" className="paint-icon" />
                 </Link>
 
                 <div className="menu-icon" onClick={handleClick}>

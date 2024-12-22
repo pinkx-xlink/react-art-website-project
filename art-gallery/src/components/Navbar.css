@@ -29,7 +29,10 @@
     align-items: center;
   }
   
-  .fa-typo3 {
+ .fa-palette {
+    color: #fff;
+  }
+  .fa-solid {
     margin-left: 0.5rem;
     font-size: 1.8rem;
   }
