@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
+// import Logo from './src/images/paint.png';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -32,7 +33,11 @@ function Navbar() {
                 {/* replaces <a> tag  */}
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                   A.R.T. 
-                  <image src="/src/images/paint.png" className="paint-icon" />
+                  <img
+                  src="/assets/images/paint.png" 
+                  className="paint-icon"
+                  alt='paintbrush' 
+                  />
                 </Link>
 
                 <div className="menu-icon" onClick={handleClick}>

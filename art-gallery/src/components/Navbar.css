@@ -9,7 +9,7 @@
     top: 0;
     z-index: 999;
   }
-  
+
   .navbar-container {
     display: flex;
     justify-content: center;
@@ -29,9 +29,11 @@
     align-items: center;
   }
   
- .fa-palette {
-    color: #fff;
+  .paint-icon {
+    max-height: 2rem;
+    margin-left: 0.5rem;
   }
+
   .fa-solid {
     margin-left: 0.5rem;
     font-size: 1.8rem;
